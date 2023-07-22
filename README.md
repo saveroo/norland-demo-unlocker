@@ -48,12 +48,17 @@ d063af2e8d841df250a9f96146a34da710fdf78b10f1e1d103c8c981f41fcf66
 
 ## Project Installation
 
+#### Recommended > go install
+
+1. `go install github.com/saveroo/norland-demo-unlocker@latest`
+
+#### Building from source code
 To install the Norland Demo Unlocker, follow these steps:
 
 1. Clone the repository to your local machine.
 
 ```bash
-$ git clone https://github.com/your-username/norland-demo-unlocker.git
+$ git clone https://github.com/saveroo/norland-demo-unlocker.git
 ```
 
 2. Navigate to the project directory.
@@ -70,7 +75,7 @@ $ ./build.ps1
 
 ## Usage
 
-1. You can download it from the Releases page or build it yourself using the instructions above.
+1. You can download it from the [Release](https://github.com/saveroo/norland-demo-unlocker/releases) page or build it yourself using the instructions above.
 
 2. Before running the Norland Demo Unlocker, ensure that the game executable file "Norland.exe" is present in the same directory as the unlocker or simply run via CLI in the game folder.
 
