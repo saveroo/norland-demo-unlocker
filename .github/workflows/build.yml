@@ -21,7 +21,7 @@ jobs:
       - uses: wangyoucao577/go-release-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          goos: darwin
+          goos: windows
           goarch: amd64
           sha256sum: true
           asset_name: ${BINARY_NAME}_${GOARCH}
