@@ -15,7 +15,7 @@ env:
 jobs:
   releases-windows-amd64:
     name: Release windows-amd64
-    runs-on: windows-latest  # Change to your desired runner environment
+    runs-on: ubuntu-latest  # Change to your desired runner environment
     steps:
       - uses: actions/checkout@v3
       - uses: wangyoucao577/go-release-action@v1
