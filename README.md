@@ -94,7 +94,3 @@ Contributions to the Norland Demo Unlocker project are welcome. If you find any 
 ## License
 
 This project is licensed under the [CC0](LICENSE).
-
-## Contact
-
-If you have any questions or want to contact the project maintainers, you can reach us at [example@email.com](mailto:example@email.com).
