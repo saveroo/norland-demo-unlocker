@@ -8,10 +8,6 @@ permissions:
   contents: write
   packages: write
 
-env:
-  BIN_NAME: NorlandDemoUnlocker  # Change this to your binary's name
-  PROJECT_PATH: ./  # Change this to your project's path
-
 jobs:
   releases-windows-amd64:
     name: Release windows-amd64
@@ -23,7 +19,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: windows
           goarch: amd64
-          binary_name: ${{ BIN_NAME }}
+          binary_name: NorlandDemoUnlocker
           sha256sum: true
-          asset_name: ${{ BIN_NAME }}_${{ GOARCH }}
+          asset_name: NorlandDemoUnlocker_${{ GOARCH }}
           compress_assets: false
