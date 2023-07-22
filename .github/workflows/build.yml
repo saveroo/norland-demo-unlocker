@@ -1,0 +1,28 @@
+name: Build and Release
+
+on:
+  release:
+    types: [created]
+
+permissions:
+  contents: write
+  packages: write
+
+env:
+  BINARY_NAME: NorlandDemoUnlocker  # Change this to your binary's name
+  PROJECT_PATH: ./  # Change this to your project's path
+
+jobs:
+  releases-windows-amd64:
+    name: Release windows-amd64
+    runs-on: windows-latest  # Change to your desired runner environment
+    steps:
+      - uses: actions/checkout@v3
+      - uses: wangyoucao577/go-release-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          goos: darwin
+          goarch: amd64
+          sha256sum: true
+          asset_name: ${BINARY_NAME}_${GOARCH}
+          compress_assets: false
