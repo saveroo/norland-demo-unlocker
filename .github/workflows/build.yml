@@ -23,7 +23,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: windows
           goarch: amd64
-          binary_name: ${{BINARY_NAME}}
+          binary_name: ${{ BINARY_NAME }}
           sha256sum: true
-          asset_name: ${BINARY_NAME}_${GOARCH}
+          asset_name: ${{ BINARY_NAME }}_${{ GOARCH }}
           compress_assets: false
