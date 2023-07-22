@@ -1,6 +1,10 @@
 # Norland Demo Unlocker
 
-A command-line utility for unlocking the demo restriction of the game "Norland - Story Generating Strategy," allowing users to experience the full gameplay beyond the limited 20 in-game days. **Note: This project is for educational purposes only. Please support the developers by purchasing the full version once it's available.**
+[![Build and Release](https://github.com/saveroo/norland-demo-unlocker/actions/workflows/build.yml/badge.svg)](https://github.com/saveroo/norland-demo-unlocker/actions/workflows/build.yml)
+
+**Note: This project is for educational purposes only. Please support the developers by purchasing the full version once it's available.**
+
+A command-line utility (patcher) for unlocking the demo restriction of the game "Norland - Story Generating Strategy," allowing users to experience the full gameplay beyond the limited 20 in-game days.
 
 !![img.png](img.png)
 
