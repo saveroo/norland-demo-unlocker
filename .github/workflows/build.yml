@@ -9,7 +9,7 @@ permissions:
   packages: write
 
 env:
-  BINARY_NAME: NorlandDemoUnlocker  # Change this to your binary's name
+  BIN_NAME: NorlandDemoUnlocker  # Change this to your binary's name
   PROJECT_PATH: ./  # Change this to your project's path
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: windows
           goarch: amd64
-          binary_name: ${{ BINARY_NAME }}
+          binary_name: ${{ BIN_NAME }}
           sha256sum: true
-          asset_name: ${{ BINARY_NAME }}_${{ GOARCH }}
+          asset_name: ${{ BIN_NAME }}_${{ GOARCH }}
           compress_assets: false
