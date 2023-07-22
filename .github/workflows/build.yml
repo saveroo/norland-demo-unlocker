@@ -21,6 +21,5 @@ jobs:
           goarch: amd64
           binary_name: NorlandDemoUnlocker
           asset_name: NorlandDemoUnlocker
-          executable_compression: upx --best
           sha256sum: true
           compress_assets: false
