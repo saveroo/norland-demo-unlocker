@@ -21,5 +21,4 @@ jobs:
           goarch: amd64
           binary_name: NorlandDemoUnlocker
           sha256sum: true
-          asset_name: NorlandDemoUnlocker_${{ GOARCH }}
           compress_assets: false
