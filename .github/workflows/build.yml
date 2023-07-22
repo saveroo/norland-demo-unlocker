@@ -19,7 +19,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: windows
           goarch: amd64
-          upx: upx --best
+          executable_compression: upx --best
           asset_name: NorlandDemoUnlocker
           sha256sum: true
           compress_assets: false
