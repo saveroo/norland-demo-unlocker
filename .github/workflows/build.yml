@@ -23,3 +23,12 @@ jobs:
           asset_name: NorlandDemoUnlocker
           sha256sum: true
           compress_assets: false
+            
+            
+#     - name: Get executable path
+#       run: echo NorlandDemoUnlocker.exe
+#     - name: Calculate SHA-256 sum
+#       run: shasum -a 256 ${{ steps.get_executable_path.outputs.path }}
+#     - name: Add SHA-256 sum to release notes
+#       run: | 
+#       echo "SHA-256 sum: {{ steps.calculate_sha256_sum.outputs.stdout }}" >> ${{ github.workspace }}/release-notes.md
